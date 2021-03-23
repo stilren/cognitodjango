@@ -12,7 +12,7 @@ function App() {
   const [me, setMe] = useState(null)
 
   const callme = async () => {
-    const res = await fetch("http://mylxc/api/one/v1/me/", {headers: {
+    const res = await fetch("myapi", {headers: {
       Authorization: `Bearer ${(await Auth.currentSession()).getIdToken().getJwtToken()}`
     }})
     setMe(await res.json())
