@@ -1,0 +1,9 @@
+django
+django-stubs
+mypy
+https://github.com/matangover/mypyls/archive/master.zip#egg=mypyls[default-mypy]
+djangorestframework
+coverage
+djangorestframework-stubs
+django-cors-headers
+pyjwt
